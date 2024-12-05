@@ -22,6 +22,6 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         port: 22
         source: "./*.html"
-        target: ${{ secrets.SERVER_TARGET }}
+        target: ${{ secrets.SERVER_TARGET_ROOT }}
 
         
